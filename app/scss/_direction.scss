@@ -1,0 +1,58 @@
+.direction {
+    text-align: center;
+    
+    background-color: #2D2D2D;
+
+    h2 {
+        padding-bottom: 30px;
+    }
+
+    .direction-text {
+        font-size: 36px;
+        padding: 0 0 50px 0;
+    }
+}
+
+
+.direction-content {
+    display: flex;
+}
+
+.direction-item {
+    height: 500px;
+    width: 30%;
+    margin: 0 20px;
+    margin-bottom: 50px;
+    display: flex;
+    padding: 30px 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    text-shadow: 1px 1px 2px #000;
+    overflow: hidden;
+    opacity: .9;
+    background-size: cover;
+    span {
+        font-size: 36px;
+    }
+}
+
+.direction-item:first-child {
+    background-image: url(../images/classic.jpg);
+
+    background-position: bottom;
+
+}
+
+.direction-item:nth-child(2) {
+    background-image: url(../images/electro.jpg);
+
+    background-position: bottom;
+
+}
+
+.direction-item:nth-child(3) {
+    background-image: url(../images/vocal.jpg);
+
+    background-position: right;
+
+}
